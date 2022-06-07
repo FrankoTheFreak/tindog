@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --pink: #FC1235;
+    --black: #050505;
+    --white: #F3F8F2;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* LANDING PAGE STYLING START  */
+
+h1,
+h3,
+.btn,
+.nav-item {
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+h4,
+h5,
+h2 {
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+
+#landingpage {
+    background-color: var(--pink);
+}
+
+.homeimg {
+    width: 400px;
+    height: auto;
+}
+
+/* LANDING PAGE STYLING END  */
+
+/* FEATURES PAGE STYLING END  */
+
+p {
+    color: #5e5858;
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+.icons {
+    color: var(--pink);
+}
+
+.icons:hover {
+    color: #ed3850
+}
+
+/* HOW TO USE STYLING START  */
+
+#howtouse {
+    background-color: var(--black);
+}
+
+.dog-owner {
+    width: 90%;
+    height: auto;
+}
+
+.htu-text {
+    color: #867d7d;
+}
+
+/* HOW TO USE STYLING END */
+
+/* FEATURED ON STYLING START */
+
+#featuredon {
+    background-color: var(--white);
+}
+
+.fo-img {
+    width: 200px;
+    height: auto;
+}
+
+/* FEATURED ON STYLING END */
+
+/* REVIEWS STYLING START */
+
+#reviews {
+    background-color: var(--pink);
+}
+
+.review-img {
+    width: auto;
+    height: 9rem;
+    border-radius: 100px;
+}
+
+.carousel-item {
+    padding: 6% 10%;
+}
+
+/* REVIEWS STYLING END */
+
+/* PRINCING STYLING END */
+
+#pricing {
+    padding: 6% 10%;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.card-header {
+    background-color: var(--pink);
+    color: var(--white);
+}
+
+.card-title {
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+
+/* PRICING STYLING END */
+
+/* CTA STYLING START */
+
+#cta {
+    background-color: var(--pink);
+    padding: 6% 10%;
+}
+
+/* CTA STYLING END */
+
+/* FOOtER STYLING START */
+
+#footer {
+    background-color: var(--black);
+    width: auto;
+    height: 15vh;
+}
+
+.footer-icon {
+    color: var(--white);
+}
+
+/* FOOTER STYLING END */
+
+#copyright {
+    background-color: var(--black);
+    width: auto;
+    height: 15vh;
+}
+
+.copyright-text {
+    color: #5e5858;
+}
