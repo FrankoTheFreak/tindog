@@ -1,6 +1,8 @@
+/* GOOGLE FONTS -> Ubuntu, Monsterrat */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+/* COLORS  */
 :root {
     --pink: #FC1235;
     --black: #050505;
@@ -81,7 +83,7 @@ p {
 /* FEATURED ON STYLING START */
 
 #featuredon {
-    background-color: var(--white);
+    background-color: white;
 }
 
 .fo-img {
@@ -152,6 +154,10 @@ p {
     color: var(--white);
 }
 
+.footer-icon:hover {
+    color: var(--pink);
+}
+
 /* FOOTER STYLING END */
 
 #copyright {
@@ -162,4 +168,8 @@ p {
 
 .copyright-text {
     color: #5e5858;
+}
+
+.copyright-text:hover {
+    color: var(--white);
 }
